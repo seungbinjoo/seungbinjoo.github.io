@@ -199,6 +199,43 @@
     </tbody></table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     
+      <tr onmouseout="slp_stop()" onmouseover="slp_start()">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='slp_image'><video  width=100% muted autoplay loop>
+            <source src="images/slp.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='images/slp.png' width=100%>
+          </div>
+          <script type="text/javascript">
+            function slp_start() {
+              document.getElementById('slp_image').style.opacity = "1";
+            }
+  
+            function slp_stop() {
+              document.getElementById('slp_image').style.opacity = "0";
+            }
+            slp_stop()
+          </script>
+        </td>
+        <td style="padding:8px;width:80%;vertical-align:middle">
+          <a href="https://seungbinjoo.github.io/">
+            <span class="papertitle">Sonic Cityscapes: Analysis of New York's Unique Sound Identity Using Artificial Intelligence</span>
+          </a>
+          <br>
+          <strong>Seung-Bin Joo</strong>,
+          <br>
+          <em>SLP research project</em>, 2024
+          <br>
+          <a href="https://seungbinjoo.github.io/">project page</a>
+          <p></p>
+          <p>
+            Analyzing the sounds of cities using neural networks and mel-frequency cepstral coefficient features.
+          </p>
+        </td>
+      </tr>
+    
     </tr>
             
           </tbody></table>
