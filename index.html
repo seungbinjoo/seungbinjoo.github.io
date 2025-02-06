@@ -98,7 +98,7 @@
     </tr>
 
 
-    <tr onmouseout="simvs_stop()" onmouseover="simvs_start()">
+    <tr onmouseout="dpf_stop()" onmouseover="dpf_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='dpf'><video  width=100% muted autoplay loop>
@@ -108,11 +108,11 @@
           <img src='images/dpf.png' width=100%>
         </div>
         <script type="text/javascript">
-          function simvs_start() {
+          function dpf_start() {
             document.getElementById('dpf').style.opacity = "1";
           }
 
-          function simvs_stop() {
+          function dpf_stop() {
             document.getElementById('dpf').style.opacity = "0";
           }
           simvs_stop()
