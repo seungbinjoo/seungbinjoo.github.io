@@ -235,6 +235,43 @@
           </p>
         </td>
       </tr>
+
+      <tr onmouseout="typ_stop()" onmouseover="typ_start()">
+        <td style="padding:16px;width:20%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='typ_image'><video  width=100% muted autoplay loop>
+            <source src="images/typ.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='images/typ.png' width=100%>
+          </div>
+          <script type="text/javascript">
+            function typ_start() {
+              document.getElementById('typ_image').style.opacity = "1";
+            }
+  
+            function typ_stop() {
+              document.getElementById('typ_image').style.opacity = "0";
+            }
+            typ_stop()
+          </script>
+        </td>
+        <td style="padding:8px;width:80%;vertical-align:middle">
+          <a href="https://seungbinjoo.github.io/">
+            <span class="papertitle">Design of Holographic Optical Tweezers for Advanced Single Cell Surgery Photonics Platform</span>
+          </a>
+          <br>
+          <strong>Seung-Bin Joo</strong>
+          <br>
+          <em>3rd Year Project, University of Oxford</em>, 2024
+          <br>
+          <a href="data/3YP_report.pdf">report</a>
+          <p></p>
+          <p>
+            Using ray optics MATLAB simulations, Brownian optical trap calculations, and the Gerchberg-Saxton phase retrieval algorithm, designed parallelizable optical tweezers for dynamically manipulating single cells.
+          </p>
+        </td>
+      </tr>
     
     </tr>
             
